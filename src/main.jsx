@@ -18,6 +18,8 @@ const router = createBrowserRouter(
       <Route path='useRef' element={<UseRef />} />
       <Route path='useCallback' element={<UseCallback />} />
       <Route path='customHook' element={<CustomHook />} />
+      {/* <Route path='user/:userid' element={<User/>}/> */}
+      
     </>
   )
 );
